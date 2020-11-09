@@ -26,7 +26,7 @@ int main()
 		if (iM < 0) iM += SQR_SIZE;
 		else if (iM >= SQR_SIZE) iM -= SQR_SIZE;
 
-		for (int j = 0; j < 9; j++)
+		for (int j = 0; j < AUG_SQR_SIZE; j++)
 		{
 			if (!augSqr[i][j]) continue;
 
