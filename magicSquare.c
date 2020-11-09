@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 #define SQR_SIZE 5
-#define AUG_SQR_SIZE 9
+#define AUG_SQR_SIZE (SQR_SIZE + 4)
 
 int main()
 {
